@@ -1,0 +1,156 @@
+.bodyIndex{
+    font-family: Calibri;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+    flex-flow: column;
+}
+body{
+    font-family: Calibri;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.name{
+    font-size: 80px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+.name2{
+    margin-left: 100px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+.name3{
+    margin-left: 80px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+.mainIndex{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: row;
+
+}
+.main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column;
+
+}
+.checkType{
+    width: 150px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color: black;
+    transition: 0.5s;
+}
+.checkType:hover{
+    background-color: black;
+    color: white;
+
+}
+.typeOf{
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited, a:link{
+    text-decoration: none;
+    decoration: none;
+}
+.choose{
+    margin-left: 150px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.footer{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row;
+}
+.footerKitchen {
+
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row;
+}
+button.but{
+    width: 150px;
+    height: 35px;
+}
+.but {
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.back{
+    margin-top: 10px;
+    height: 30px;
+    width: 475px;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.back:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.image{
+    margin-top: 30px;
+    margin-right: 100px;
+    align-self: center;
+    height: 400px;
+    width: 450px;
+    background-image: url("/images/templater.jpg");
+}
+input {
+    margin-left: 10px;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid black;
+    outline: none;
+}
